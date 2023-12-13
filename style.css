@@ -1,0 +1,25 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.video-container {
+    margin-top: 50px;
+}
+
+canvas {
+    display: none;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.output-video {
+    margin-top: 50px;
+}

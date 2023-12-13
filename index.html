@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Centralized Face Recognition</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Centralized Face Recognition</h1>
+        <div class="video-container">
+            <video id="video" width="640" height="480" autoplay></video>
+        </div>
+        <canvas id="canvas" width="640" height="480"></canvas>
+        <div class="controls">
+            <input type="file" id="video-file" accept="images/*" />
+            <input type="file" id="video-file" accept="video/*" />
+            <button id="start-btn">Start</button>
+            <button id="stop-btn">Stop</button>
+        </div>
+        <div class="output-video">
+            <h2>Output Video</h2>
+            <video id="output-video" width="640" height="480" controls></video>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
